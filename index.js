@@ -9,9 +9,6 @@ import path from 'path';
 app.set('view engine', 'pug')
 app.use(express.json());
 
-SSR
-SERVER SIDE RENDERING
-
 app
     .route('/')
     .get((request, response) => {
